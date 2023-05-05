@@ -56,7 +56,7 @@ card4.addEventListener('click',()=>{
 
 
 chatBotPageTakingBtn.addEventListener('click',()=>{
-    window.location.href="otherHTML/chatBot.html";
+    window.location.href="chatBot.html";
 })
 
 
