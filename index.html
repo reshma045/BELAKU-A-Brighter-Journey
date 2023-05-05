@@ -13,46 +13,7 @@
     <link rel="stylesheet" href="style.css">
     
     <link rel="icon" href="Project_images\Logo.png">
-    <style>
-      button {
-        display: inline-block;
-        background-color: #7b38d8;
-        border-radius: 10px;
-        border: 4px double #cccccc;
-        color: #ffffff;
-        text-align: center;
-        font-size: 28px;
-        padding: 20px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 5px;
-      }
-      button span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-      }
-      button span:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
-      button:hover {
-        background-color: #f7c2f9;
-      }
-      button:hover span {
-        padding-right: 25px;
-      }
-      button:hover span:after {
-        opacity: 1;
-        right: 0;
-      }
-    </style>
+    
 
 </head>
 <body>
@@ -356,7 +317,11 @@
                     <p>
                           Should you be experiencing feelings of sadness today and feel compelled to discuss your circumstances, please understand that I am available to provide a listening ear and offer support.</p>
                     <!--<button class="take-me-there-btn" id="chat-bot-page-portal-btn">Let's go <i class="fas fa-long-arrow-alt-right take-there-arrow"></i></button>-->
-                    <button onclick="window.location.href = 'index123.html';">Let's Go!</button>
+           
+                    <button style="display: inline-block; background-color: #7b38d8; border-radius: 10px; border: 4px double #cccccc; color: #ffffff; text-align: center; font-size: 28px; padding: 20px; width: 200px; transition: all 0.5s; cursor: pointer; margin: 5px;" onclick="window.location.href = 'index123.html';">
+                        <span style="cursor: pointer; display: inline-block; position: relative; transition: 0.5s;">Let's Go!</span>
+                    </button>
+
                 </div>
 
  
