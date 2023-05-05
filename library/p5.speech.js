@@ -1,23 +1,3 @@
-/*! p5.speech.js v0.0.1 2015-06-12 */
-/* updated v0.0.2 2017-10-17 */
-/**
- * @module p5.speech
- * @submodule p5.speech
- * @for p5.speech
- * @main
- */
-/**
- *  p5.speech
- *  R. Luke DuBois (dubois@nyu.edu)
- *  ABILITY Lab / Brooklyn Experimental Media Center
- *  New York University
- *  The MIT License (MIT).
- *  
- *  https://github.com/IDMNYU/p5.js-speech
- *
- *  Web Speech API: https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html
- *  Web Speech Recognition API: https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html
- */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd)
     define('p5.speech', ['p5'], function (p5) { (factory(p5));});
@@ -38,16 +18,6 @@
    * @constructor
    */
   p5.Speech = function(_dv, _callback) {
-
-    //
-    // speech synthesizers consist of a single synthesis engine
-    // per window instance, and a variable number of 'utterance'
-    // objects, which can be cached and re-used for, e.g.
-    // auditory UI.
-    //
-    // this implementation assumes a monolithic (one synth, 
-    // one phrase at a time) system.
-    //
 
     // make a speech synthizer (this will load voices):
     this.synth = window.speechSynthesis;
@@ -229,17 +199,6 @@
    */
   p5.SpeechRec = function(_lang, _callback) {
 
-    //
-    // speech recognition consists of a recognizer object per 
-    // window instance that returns a JSON object containing
-    // recognition.  this JSON object grows when the synthesizer
-    // is in 'continuous' mode, with new recognized phrases
-    // appended into an internal array.
-    //
-    // this implementation returns the full JSON, but also a set
-    // of simple, query-ready properties containing the most
-    // recently recognized speech.
-    //
 
     // make a recognizer object.
     if('webkitSpeechRecognition' in window) {
