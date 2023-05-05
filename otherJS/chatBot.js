@@ -53,7 +53,7 @@ function setup(){
 function welcome(){
 
 
-    speech.speak("Hello my friend im happy you're here"); 
+    speech.speak("Hello my friend  you're here"); 
 
 }
 
