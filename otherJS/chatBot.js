@@ -82,7 +82,7 @@ function startSpeaking(){
 
 var bot = new RiveScript();
 
-bot.loadFile("RiveScripts/botBrain.rive").then(loading_done).catch(loading_error);
+bot.loadFile("RiveScripts/chatbot_text.txt").then(loading_done).catch(loading_error);
 
 
 function loading_done() {
