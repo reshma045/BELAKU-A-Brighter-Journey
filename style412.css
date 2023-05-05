@@ -1,5 +1,14 @@
 h1{
-	color: blue;
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	width:95%;
+	margin: 0 auto;
+	padding: 1em 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 * {
