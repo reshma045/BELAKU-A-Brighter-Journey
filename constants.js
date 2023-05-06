@@ -4,7 +4,7 @@ const prompts = [
   ["how are you", "how is life", "how are things"],
   ["what do you do","what can you do"],
   ["im fine", "im doing good", "im doing great"],
-  ["i will commit suicide","i want to commit suicide","i think about suicide"],
+  ["i will commit suicide","i want to commit suicide","i think about suicide","i feel like dying"],
   ["okay"],
   ["i love you"],
   ["please be my friend", "can you be my friend"],
