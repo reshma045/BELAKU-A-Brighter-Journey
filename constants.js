@@ -9,7 +9,7 @@ const prompts = [
   ["i love you"],
   ["please be my friend", "can you be my friend"],
   ["thank you", "thanks", "thank you so much","thank you very much"],
-  ["im feeling sad", "im sad", "im not okay"],
+  ["im feeling sad", "im sad", "im not okay","im depressed","i feel depressed"],
   ["im angry", "i feel angry","i feel anxious","im anxious"],
   ["bye", "good bye", "goodbye", "see you later"],
   ["what should i eat today"],
