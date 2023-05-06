@@ -35,10 +35,10 @@ const replies = [
     "I love talking to beautiful humans like you"
   ],
   ["Happy to hear that", "Thats what i wish for, happy to hear that!"],
-  ["You're not alone. I may not understand exactly how you feel, but you're not alone",
-    "Dont talk about that please, you have more to go through. You're strong enough",
-    "There are people who really love you, so don't",
-    "Please don't worry about what you are going through, find a way to solve it"
+  ["You're not alone. I may not understand exactly how you feel, but you're not alone. Helpline: 9152987821",
+    "Dont talk about that please, you have more to go through. You're strong enough. Helpline: 9152987821",
+    "There are people who really love you, so don't. Helpline: 9152987821",
+    "Please don't worry about what you are going through, find a way to solve it. Helpline: 9152987821"
   ],
   ["thank you for agreeing with me.", "okay"],
   ["I love you too", "Me too","Aww , You are the beautiful thing in this whole world , love you too"],
